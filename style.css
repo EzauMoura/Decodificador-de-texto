@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet');
+
+:root { 
+    --cor-01: #789395;
+    --cor-02: #E5E3C9;
+    --cor-03: #ddd9ce;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+*{
+    background-color: #E5E3C9;
+    font-family:"Playfair Display", serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logoAlura {
+    display: flex;
+    margin-left: 5px;
+    padding-top: 5px;
+    width: 3%;
+}
+
+main {
+    display:flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+}
+
+.areaDoTexto {
+    border:none;
+    color: #789395;
+    margin-top: 90px;
+    text-transform: lowercase;
+
+}
+::placeholder {color:#789395;} 
+.areaDoTexto:focus {
+    outline: none;
+}
+
+.mensagem {
+    background-color: #ddd9ce;
+    border: none;
+    border-radius: 25px;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    color:#789395
+   
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 129px;
+}
+
+.botaoCriptografar {
+    background-color: #789395;
+    border: 1px solid #789395;
+    border-radius: 24px;
+    color: #E5E3C9;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+
+}
+
+.botaoDescriptografar {
+    background-color: #789395;
+    border: 1px solid #789395;
+    border-radius: 24px;
+    color: #E5E3C9;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-left: 30px;
+}
+
+.botaoCopiar {
+    background-color: #789395;
+    border: 1px solid #789395;
+    border-radius: 24px;
+    color: #E5E3C9;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+    margin-left: 108px;
+    margin-top: 459px;
+    position: absolute; 
+    
+
+}
+
+.informacao h6 { 
+    color: #789395;
+    font-size: 0.4rem; 
+    padding-top: 20px;
+}
+
+
+.esconder {
+    display: none;
+}
+
+.figura {
+    position: relative;
+    margin-left: 147px;
+    margin-top: 90px;
+}
+
+.area__msm__boneco {
+    display: flex;
+    text-align: center;
+    font-size: 0.7rem;
+    margin: 0.625rem 0 0 0.625rem;
+    margin-left: 5rem;
+    font-weight: bold;
+}
+
+.area__msm2__boneco {
+    display:flex;
+    text-align: justify;
+    font-size: 0.4rem;
+    margin: 0.625rem 0 0 0.625rem;
+    margin-left: 5rem;
+    opacity: 1;
+    color: #789395 ;
+}
+
+.rodape {
+    font-size: 0.5rem;
+    display: flex;
+    justify-content: center;
+
+}
+.rodape__2 {
+    font-size: 0.5rem;
+    display: flex;
+    justify-content: center;
+   
+}
+

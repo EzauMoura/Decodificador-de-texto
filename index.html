@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img class="logoAlura" src="./imagens/logoAlura.png" alt="Logo da Alura">
+    </header>
+
+    <main>
+
+        <section>
+            <textarea class="areaDoTexto" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+
+            <div class="informacao">
+                <h6>!Somente letras minúsculas e sem acento.</h6>
+            </div>
+
+            <div class="botoes">
+                <button class="botaoCriptografar" onclick="btnCriptografar()"> Criptografar </button>
+                <button class="botaoDescriptografar" onclick="btnDescriptografar()">Descriptografar</button>
+            </div>
+        </section>
+        <section id="figurinha">
+            <img class="figura" src='./imagens/kakashi.jpg' alt="figurinha do Kakashi">
+            <h5 class="area__msm__boneco">Nenhuma mensagem encontrada</h5>
+            <h6 class="area__msm2__boneco">Digite um texto que você deseja criptografar e
+                descriptografar.</h6>
+
+        </section>
+
+        <section class="esconder" id="textocriptografado">
+            <textarea class="mensagem" cols="20" rows="12"></textarea>
+            <button class="botaoCopiar" onclick="btnCopiar()">Copiar</button>
+
+        </section>
+
+    </main>
+
+    <footer class="rodape">Ezaú Moura</footer>
+    <footer class="rodape__2">Teresina-Pi</footer>
+
+    <script src="decodificador.js"></script>
+
+</body>
+
+</html>
